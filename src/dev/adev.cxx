@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	vector<uint64_t> g = {0,1,0,3};
 	f.insert(f.end(), g.begin(), g.end());
 	prt_vect(f);
-	for(uint64_t i = 1; i != 82; ++i){
+	for(uint64_t i = 1; i != 20; ++i){
 		f[(2*i)] = f[i];
 		//~ f[(4*i + 1)] = 2*f[(2*i + 1)] - f[i];
 		//~ f[(4*i + 3)] = 3*f[(2*i + 1)] - 2*f[i];
