@@ -8,6 +8,7 @@
 #include <iostream>
 #include <cstdint>
 #include <vector>
+#include <cmath>
 
 using namespace std;
 
@@ -19,6 +20,15 @@ void prt_vect(vector<uint64_t> &v){
 
 int main(int argc, char **argv)
 {
+	
+	//~ uint64_t three37 = pow(3,37);
+	//~ cout << three37 << endl;
+	//~ exit(0);
+
+	//~ # 2^58 	288,230,376,151,711,744
+    //~ #       450,283,905,890,997,376	18 digits 3^37
+	//~ # 2^59 	576,460,752,303,423,488
+	
 	vector<uint64_t> f;
 	vector<uint64_t> g = {0,1,0,3};
 	f.insert(f.end(), g.begin(), g.end());
